@@ -1,0 +1,21 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js > main.log",
+    "on": "node on.js",
+    "off": "node off.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-schedule": "^2.1.1",
+    "nodemon": "^3.0.1",
+    "request": "^2.88.2",
+    "selenium-webdriver": "^4.11.1"
+  }
+}
